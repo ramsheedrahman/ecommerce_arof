@@ -1,0 +1,23 @@
+.sidebar{
+    background-color: rgb(30, 28, 25);
+}
+
+.profile-section{
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.user-icon{
+    font-size: 3rem;
+    justify-content: center;
+}
+.profile-details{
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.name{
+    font-size: 1rem;
+}

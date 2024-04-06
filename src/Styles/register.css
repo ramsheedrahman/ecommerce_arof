@@ -1,0 +1,72 @@
+.container-register {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.reg-form-header {
+  margin-top: 60px;
+  background-color: #f4f3f3 !important;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2.5rem;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: black;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+.form {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.form-group {
+  margin: 6px 0;
+  background-color: #fff;
+}
+
+label {
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=tel],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #217dbb;
+}/*# sourceMappingURL=register.css.map */

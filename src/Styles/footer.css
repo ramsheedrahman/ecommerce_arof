@@ -1,0 +1,39 @@
+.footer{
+  z-index: 13;
+  position: absolute;
+  font-family: 'Noto Sans', sans-serif;
+  h6{
+    font-weight:bolder;
+  }
+  
+}
+.social-icons{
+  display: flex;
+}
+.contact-info p{
+  display: flex;
+  gap: 0.4rem;
+}
+.icon{
+  margin-right: 2rem;
+  color: #fff;
+}
+.footer-navigation a{
+  color: white;
+  margin-top: 1rem;
+}
+@media only screen and (max-width: 767px) {
+  .about-us,.contact-us,.footer-navigation{
+    font-size: 0.6rem;
+  }
+  h6{
+    font-size: 0.7rem;
+  }
+  .icon{
+    margin-right: 0.7rem;
+    color: #ffff; 
+  }
+  .copy-right{
+    font-size: 0.9rem;
+  }
+}

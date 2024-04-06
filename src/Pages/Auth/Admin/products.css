@@ -1,0 +1,35 @@
+.product-card-body{
+  font-family: "Roboto", sans-serif;
+  /* background-color: #deced3; */
+background-color: #f74d83;
+}
+.card-title{
+  font-size: large;
+}
+.product-card-text{
+  color: #b52d58;
+  font-size: large;
+}
+.dashboard{
+background-color: #fff;
+ min-height: 90vh;
+ max-height: 100%;
+}
+.about-more,.add-to-cart{
+  width: 40%;
+  font-size: small;
+}
+.card-body{
+  width: 100%;
+}
+
+/* Your CSS file (e.g., ProductDetails.css) */
+
+/* Set the dark background for the entire container */
+/* Your CSS file (e.g., ProductDetails.css) */
+
+/* Set the dark background for the entire container */
+/* Your CSS file (e.g., ProductDetails.css) */
+
+/* Set the dark background for the entire container */
+

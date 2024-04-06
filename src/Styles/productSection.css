@@ -1,0 +1,41 @@
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination {
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .pagination__link {
+    background-color: rgb(18, 14, 14);
+    color: #e0e6ec;
+    margin: 0 5px;
+    padding: 5px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+  }
+  .clear-filter-btn{
+    margin-top: 1rem;
+    align-items: center;
+    background-color: red;
+    width: 50%;
+    height: 2rem;
+    text-align: center;
+  }
+  .pagination__link--active {
+    color:rgb(255, 98, 0);
+  }
+  .page-count{
+    margin: 0 0.5rem;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .pagination__link--disabled {
+    color: #ddd;
+    pointer-events: none;
+  }
+  

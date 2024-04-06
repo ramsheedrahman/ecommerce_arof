@@ -1,0 +1,35 @@
+/* Add styles to userdashboard.css */
+
+.user-dashboard {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-direction: row-reverse;
+    background-color: #ffff;
+  }
+  .dashboard-cards{
+    padding-top: 50px;
+    display: flex;
+  }
+  .dash-card{
+    align-items: center;
+    background-color: #ffff;
+}
+.dash-icon{
+    font-size: 2.4rem;
+}
+.span-text {
+    margin-left:0.5 rem !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: x-large;
+  }
+.user-card-text{
+    font-size: 2.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(14, 143, 42);
+} 
+  .card-body {
+    text-align: center;
+    align-items: center;
+  }

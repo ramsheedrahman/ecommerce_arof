@@ -1,0 +1,15 @@
+
+.order-table{
+    margin-top: auto;
+}
+@media (max-width:768px) {
+    .order-table{
+        width: auto;
+    }
+    .order-table th,
+    .order-table td {
+        white-space: 20px;
+    }
+  }
+
+
