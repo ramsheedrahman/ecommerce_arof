@@ -67,7 +67,7 @@ function Homepage() {
   
     const getAllcategory=async()=>{
       try {
-       const {data} =await axios.get(`${process.env.REACT_APP_SERVER}/category/get-category`)
+       const {data} =await axios.get(`${process.env.REACT_APP_SERVER}category/get-category`)
        if(data.success){
         setCategories(data.category)
        }
@@ -83,7 +83,7 @@ function Homepage() {
     const getAllProducts = async () => {
       try {
        
-          const { data } = await axios.get(`${process.env.REACT_APP_SERVER}/product/get-allproducts`);
+          const { data } = await axios.get(`${process.env.REACT_APP_SERVER}product/get-allproducts`);
           setProducts(data.products);
       } catch (error) {
         console.log(error);
@@ -102,7 +102,7 @@ function Homepage() {
     
     const getFilteredProducts=async ()=>{
       try {
-        const filter= await axios.post(`${process.env.REACT_APP_SERVER}/product/filter-products`,{selectedCategories,selectedPrices})
+        const filter= await axios.post(`${process.env.REACT_APP_SERVER}product/filter-products`,{selectedCategories,selectedPrices})
            console.log(filter);
             setProducts(filter.data.products)
       } catch (error) {
