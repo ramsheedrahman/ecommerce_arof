@@ -58,7 +58,7 @@ const ProductsSection = () => {
 
   const getAllcategory = async () => {
     try {
-      const { data } = await axios.get(`${process.env.REACT_APP_SERVER}category/get-category`)
+      const { data } = await axios.get(`${process.env.REACT_APP_SERVER}/category/get-category`)
       if (data.success) {
         setCategories(data.category)
       }
@@ -70,7 +70,7 @@ const ProductsSection = () => {
 
   const getAllProducts = async () => {
     try {
-      const { data } = await axios.get(`${process.env.REACT_APP_SERVER}product/get-allproducts`);
+      const { data } = await axios.get(`${process.env.REACT_APP_SERVER}/product/get-allproducts`);
       setProducts(data.products);
     } catch (error) {
       console.log(error);
@@ -95,7 +95,7 @@ const ProductsSection = () => {
     try {
       console.log(process.env.NODE_SERVER); // Print the server URL for debugging
 
-      const filter = await axios.post(`${process.env.REACT_APP_SERVER}product/filter-products`,{ selectedCategories, selectedPrices })
+      const filter = await axios.post(`${process.env.REACT_APP_SERVER}/product/filter-products`,{ selectedCategories, selectedPrices })
       setProducts(filter.data.products);
     } catch (error) {
       console.log(error);
