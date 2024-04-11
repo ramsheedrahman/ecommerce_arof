@@ -120,7 +120,7 @@ const ProductsSection = () => {
   <div className="col-12 col-md-3  d-flex justify-content-center" key={p._id}>
                     <div className="card m-2" style={{ width: '16rem' }}>
                       <img
-                        src={`${process.env.REACT_APP_SERVER}product/get-productphoto/${p._id}`}
+                        src={`${process.env.REACT_APP_SERVER}/product/get-productphoto/${p._id}`}
                         className="card-img-top"
                         alt={p.name}
                         style={{ height: '14rem', minHeight: '14rem', maxHeight: '14rem' }}
