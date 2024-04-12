@@ -11,7 +11,7 @@ function StripeContainer({amount}) {
   useEffect(() => {
     async function createPaymentIntent(amount) {
       try {
-        const result = await fetch('http://localhost:8000/product/payment-intent', {
+        const result = await fetch(`${process.env.REACT_APP_SERVER}/product/payment-intent`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

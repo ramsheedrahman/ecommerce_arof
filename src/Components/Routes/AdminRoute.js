@@ -13,7 +13,7 @@ console.log(token);
   useEffect(() => {
     const authCheck = async () => {
       try {
-        const res = await axios.get('http://localhost:8000/auth/admin-auth', {
+        const res = await axios.get(`${process.env.REACT_APP_SERVER}/auth/admin-auth`, {
           headers: {
             Authorization:token,
           },
